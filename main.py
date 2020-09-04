@@ -39,7 +39,7 @@ def winCon():
         quitGame = True
         game_board()
         print(("player1" if player1 else "player2") +" won the game")   
-    compareString = 
+    compareString = ""
   for i in range(3):
     compareString+=game[i][i]
     if(compareString==finalStr):
