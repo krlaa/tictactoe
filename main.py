@@ -19,30 +19,34 @@ def winCon():
     for j in range(3):
       compareString+=game[i][j]
       if(compareString==finalStr):
-        print(("player1" if player1 else "player2") +" won the game") 
+        
         quitGame = True
-        game_board() 
+        game_board()
+        print(("player1" if player1 else "player2") +" won the game")  
     compareString = ""
   for i in range(3):
     for j in range(3):
       compareString+=game[j][i]
       if(compareString==finalStr):
-        print(("player1" if player1 else "player2") +" won the game") 
+        
         quitGame = True
-        game_board()   
+        game_board()
+        print(("player1" if player1 else "player2") +" won the game")    
     compareString = ""
   for i in range(3,0):
     compareString+=game[i][i]
     if(compareString==finalStr):
-        print(("player1" if player1 else "player2") +" won the game") 
-        quitGame = True  
-    compareString = ""
+        quitGame = True
+        game_board()
+        print(("player1" if player1 else "player2") +" won the game")   
+    compareString = 
   for i in range(3):
     compareString+=game[i][i]
     if(compareString==finalStr):
-        print(("player1" if player1 else "player2") +" won the game") 
+        
         quitGame = True
-        game_board()   
+        game_board()
+        print(("player1" if player1 else "player2") +" won the game")    
     compareString = ""
 def game_board():
     global game
