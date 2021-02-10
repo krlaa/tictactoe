@@ -1,11 +1,11 @@
-game = [["_", "_", "_"], ["_", "_", "_"], ["_", "_", "_"]]
+me = [["_", "_", "_"], ["_", "_", "_"], ["_", "_", "_"]]
 
 row = ""
 column = ""
 quitGame = False
 legalMove = True
 player1 = True
-piece = "o"
+piece = "x"
 
 count = 0;
 compareString = ""
